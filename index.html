@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"
+    ></script>
+
+    <!-- <link rel="stylesheet" href="reset.css" /> -->
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Work Day Scheduler</title>
+  </head>
+
+  <body>
+    <header class="jumbotron">
+      <h1 class="display-3">Work Day Scheduler</h1>
+      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <p id="currentDay" class="lead"></p>
+    </header>
+    <div class="container time-container">
+      <!-- Timeblocks go here -->
+      <div class="row">
+        <div class="col-2 hour">9am</div>
+
+        <div class="col-8" id="9am">
+          <textarea
+            id="hour9"
+            class="description"
+            contenteditable="true"
+          ></textarea>
+        </div>
+        <div class="col-2">
+          <button type="button" class="btn saveBtn" id="save9">save</button>
+        </div>
+      </div>
+      <!-- hour -->
+      <div class="row">
+        <div class="col-2 hour">10am</div>
+        <div class="col-8" id="10am">
+          <textarea
+            id="hour10"
+            class="description"
+            contenteditable="true"
+          ></textarea>
+        </div>
+        <div class="col-2">
+          <button type="button" class="btn saveBtn" id="save10">save</button>
+        </div>
+      </div>
+      <!-- hour -->
+      <div class="row">
+        <div class="col-2 hour">11am</div>
+        <div class="col-8" id="11am">
+          <textarea
+            id="hour11"
+            class="description"
+            contenteditable="true"
+          ></textarea>
+        </div>
+        <div class="col-2">
+          <button type="button" class="btn saveBtn" id="save11">save</button>
+        </div>
+      </div>
+      <!-- hour -->
+      <div class="row">
+        <div class="col-2 hour">12pm</div>
+        <div class="col-8" id="12pm">
+          <textarea
+            id="hour12"
+            class="description"
+            contenteditable="true"
+          ></textarea>
+        </div>
+        <div class="col-2">
+          <button type="button" class="btn saveBtn" id="save12">save</button>
+        </div>
+      </div>
+      <!-- hour marker -->
+      <div class="row">
+        <div class="col-2 hour">1pm</div>
+        <div class="col-8" id="1pm">
+          <textarea
+            id="hour1"
+            class="description"
+            contenteditable="true"
+          ></textarea>
+        </div>
+        <div class="col-2">
+          <button type="button" class="btn saveBtn" id="save1">save</button>
+        </div>
+      </div>
+      <!-- hour marker -->
+      <div class="row">
+        <div class="col-2 hour">2pm</div>
+        <div class="col-8" id="2pm">
+          <textarea
+            id="hour2"
+            class="description"
+            contenteditable="true"
+          ></textarea>
+        </div>
+        <div class="col-2">
+          <button type="button" class="btn saveBtn" id="save2">save</button>
+        </div>
+      </div>
+      <!-- hour marker -->
+      <div class="row">
+        <div class="col-2 hour">3pm</div>
+        <div class="col-8" id="3pm">
+          <textarea
+            id="hour3"
+            class="description"
+            contenteditable="true"
+          ></textarea>
+        </div>
+        <div class="col-2">
+          <button type="button" class="btn saveBtn" id="save3">save</button>
+        </div>
+      </div>
+      <!-- hour marker -->
+      <div class="row">
+        <div class="col-2 hour">4pm</div>
+        <div class="col-8" id="4pm">
+          <textarea
+            id="hour4"
+            class="description"
+            contenteditable="true"
+          ></textarea>
+        </div>
+        <div class="col-2">
+          <button type="button" class="btn saveBtn" id="save4">save</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script> -->
+    <script src="script.js"></script>
+  </body>
+</html>
